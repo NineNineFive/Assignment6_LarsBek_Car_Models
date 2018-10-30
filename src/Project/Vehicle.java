@@ -16,7 +16,7 @@ public abstract class Vehicle implements Garage {
 
     public String[] getAll(){
         return new String[]{
-            "Type: "+this.getClass().getTypeName(),
+            "Type: "+this.getClass().getSimpleName(),
             "Project.Vehicle: "+ this.getBrand().getName(),
             "Model: "+this.getModel().getName(),
             "Color: "+this.getColor().getName(),

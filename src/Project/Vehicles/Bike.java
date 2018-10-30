@@ -13,7 +13,7 @@ public class Bike extends Vehicle {
         public String[] getAll(){
             return new String[]{
                 "Owner: "+this.ownerName,
-                "Type: "+this.getClass().getTypeName(),
+                "Type: "+this.getClass().getSimpleName(),
                 "Project.Vehicle: "+ this.getBrand().getName(),
                 "Model: "+super.getModel().getName(),
                 "Color: "+this.getColor().getName(),
